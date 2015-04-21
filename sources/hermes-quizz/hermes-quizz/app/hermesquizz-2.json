@@ -1,0 +1,419 @@
+{
+     "user": {
+        "id": 1,
+        "prenom": "Thierry",
+        "nom": "Herm\u00e8s",
+        "email": "thierry.hermes@mail.com",
+        "position": 1,
+        "hermesid": "12431A",
+        "end": false
+    },
+
+    "tab": {
+        "fr": {
+            "fields": {
+                "cgutitle": "Conditions Générales d'utilisation",
+                "cgu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in finibus orci. Aliquam tincidunt id ex dignissim faucibus. Ut ultricies, sem non maximus maximus, ipsum diam interdum felis, quis fringilla ex justo sit amet sapien. Nunc dui lacus, porttitor et arcu vel, ultricies varius nibh. Morbi luctus a dui eget volutpat. Vivamus mi arcu, aliquam id justo vel, dictum lacinia risus. Praesent in massa in neque auctor ornare.<br><br>Praesent nec diam tellus. Sed tempor, enim a vehicula pulvinar, ligula est congue ipsum, ac vestibulum mauris massa non orci. Nullam ac purus urna. Quisque imperdiet fringilla velit, vel fermentum nisl. Aliquam nunc mauris, placerat at magna in, rhoncus mollis ipsum. Quisque pretium tortor nec nisl ultricies, et lacinia nisl facilisis. Maecenas bibendum malesuada ex vel faucibus. Aenean nec gravida mi. In vitae sodales risus, in fermentum mi. Aliquam consectetur dapibus est eget auctor.",
+                "welcome": "Bienvenue dans la maison des carrés",  
+                "description": "Vivamus tincidunt justo non cursus dapibus. Nulla pellentesque porta ipsum in suscipit. Suspendisse massa ipsum, faucibus eu egestas eget, lobortis eget lorem. Vivamus vehicula, sapien sed laoreet ultricies, tellus mauris fermentum elit, ut tempus quam mi",
+                "saveButton": "sauvegarder",
+                "info": "Veuillez cocher la bonne réponse",
+                "access": "Accéder",
+                "start":"démarrer",
+                "name": "nom",
+                "surname" : "prénom",
+                "email": "email professionnel ou du magasin",
+                "footer": [
+                        {
+                            "value" : "Hermes.com",
+                            "href": "http://wwww.maisondescarees.com"
+                        },
+                        {
+                             "value" :  "mentions légales",
+                             "href": "http://wwww.maisondescarees.com"
+                        },
+                        {
+                            "value" : "CGU"
+                        }
+                 ]
+            },
+
+            "saveModal":{
+                "description": "Vous allez être redirigé vers l'accueil. Vous pourrez reprendre votre parcours en saissisant les informations d'accès dans le formulaire",
+                "okBtn": "OK ",
+                "cancelBtn": "Cancel"
+            },
+
+              "congratulations": {
+                "title": "Félicitation Vous avez terminé le Quizz !",
+                "description": "Vivamus tincidunt justo non cursus dapibus. Nulla pellentesque porta ipsum in suscipit. Suspendisse massa ipsum, faucibus eu egestas eget, lobortis eget lorem. Vivamus vehicula, sapien sed laoreet ultricies, tellus mauris fermentum elit, ut tempus quam mi"
+            },
+            
+            "questions": {
+                "1": {
+                    "type": "textarea",
+                    "label": "Qui a dessin\u00e9 La Maison des Carr\u00e9s?",
+                    "value": "Lorem ipsum dolor sit amet, consecris tempus nullcursus porta."
+                },
+
+                "2": {
+                    "type": "checkbox",
+                    "label": "Quelles saisons sont pr\u00e9sent\u00e9es dans La Maison des carr\u00e9s?",
+                    "reponses": [
+                        {
+                            "label": "PE13",
+                            "value": false,
+                            "name": "PE13"
+                        },
+                         {
+                            "label": "AH13",
+                            "value": true,
+                            "name": "AH"
+                        },
+                         {
+                            "label": "PE14",
+                            "value": true,
+                            "name": "PEE"
+                        },
+                        {
+                            "label": "AH14",
+                            "value": false,
+                            "name": "ADD"
+                        }
+                    ]
+                      
+                },
+                "3": {
+                    "type": "checkbox",
+                    "label": "Quelle est l\u2019animation produit majeure pour ce lancement ? (grande pi\u00e8ce sous les toits)",
+                    "reponses": [
+                        {
+                            "label": "bandanas",
+                            "value": true
+                        },
+                         {
+                            "label": "twilly",
+                            "value": false
+                        },
+                        {
+                            "label": "ch\u00e2les cachemire",
+                            "value": true
+                        }
+                    ]
+                },
+                "4": {
+                    "type": "textarea",
+                    "label": "Lister2 noms de dessins qui ressortent si vous tapez le mot \u00ab Nature \u00bb dans la barre de recherche?",
+                    "value": "fafa"
+                },
+                "5": {
+                    "type": "textarea",
+                    "label": "Comment trouver un carr\u00e9 sur le th\u00e8me \"Equestre, chevaux\" via le site ?",
+                    "value": null
+                },
+                "6": {
+                    "type": "textarea",
+                    "label": "Donner une r\u00e9f\u00e9rence compl\u00e8te d\u2019un format 140 rouge avec des fleurs.",
+                    "value": "bonjour NOVELLE QUESTION"
+                },
+                "7": {
+                    "type": "textarea",
+                    "label": "Citez 4 produits pr\u00e9sents dans la chambre des gar\u00e7ons",
+                    "value": null
+                },
+                "8": {
+                    "type": "checkbox",
+                    "label": "La Maison des Carr\u00e9s est accessible depuis :",
+                    "reponses": [
+                        {
+                            "label": "un ordinateur",
+                            "value": false
+                        },
+                        {
+                            "label": "une tablette",
+                            "value": false
+                        },
+                         {
+                            "label": "un portable",
+                            "value": false
+                        }
+                    ]
+                },
+                "9": {
+                    "type": "checkbox",
+                    "label": "La Maison des Carr\u00e9s est-elle :",
+                    "reponses": [
+                        {
+                            "label": "Un magasin e-commerce d\u00e9di\u00e9 \u00e0 la Soie dans mon pays?",
+                            "value": false
+                        },
+                         {
+                            "label": "Une vitrine suppl\u00e9mentaire pour mon magasin?",
+                            "value": false
+                        },
+                        {
+                            "label": "Une fa\u00e7on innovante de faire d\u00e9couvrir et aimer nos carr\u00e9s ?",
+                            "value": false
+                        },
+                        {
+                            "label": "Un alli\u00e9 pour g\u00e9n\u00e9rer du trafic dans mon magasin ?",
+                            "value": false
+                        },
+                         {
+                            "label": "Un outil d'informations complet (histoires de carr\u00e9s, nouages, actualit\u00e9s..) pour nos clients ou futurs clients",
+                            "value": false
+                        },
+                         {
+                            "label": "Un moyen de renforcer la relation avec les clients en partageant l\u2019actualit\u00e9 de la Soie",
+                            "value": false
+                        }
+                    ]
+                },
+                "10": {
+                    "type": "textarea",
+                    "label": "Comment un client proc\u00e8de-t-il pour aller en magasin avec sa s\u00e9lection Internet?",
+                    "value": null
+                },
+                "11": {
+                    "type": "checkbox",
+                    "label": "Quelles sont les modalit\u00e9s d\u2019\u00e9change d\u2019un carr\u00e9 achet\u00e9 sur Internet?",
+                    "reponses": [
+                        {
+                            "label": "Echange possible en magasin ou sur Internet(sous x jours)",
+                            "value": false
+                        },
+                         {
+                            "label": "Avoir (credit note) en magasin ou sur internet(sous x jours)",
+                            "value": false
+                        },
+                         {
+                            "label": "S\u2019adresser au magasin Internet pour un remboursement (sous x jours)",
+                            "value": false
+                        }
+                    ]
+                },
+                  "12": {
+                    "type": "checkbox",
+                    "label": "C'est la derniere?",
+                    "reponses": [
+                        {
+                            "label": "Echange possible en magasin ou sur Internet(sous x jours)",
+                            "value": false
+                        },
+                         {
+                            "label": "Avoir (credit note) en magasin ou sur internet(sous x jours)",
+                            "value": false
+                        },
+                         {
+                            "label": "S\u2019adresser au magasin Internet pour un remboursement (sous x jours)",
+                            "value": false
+                        }
+                    ]
+                }
+            }
+        },
+         "en": {
+            "fields": {
+                "cgutitle": "End User License Agreement",
+                "cgu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in finibus orci. Aliquam tincidunt id ex dignissim faucibus. Ut ultricies, sem non maximus maximus, ipsum diam interdum felis, quis fringilla ex justo sit amet sapien. Nunc dui lacus, porttitor et arcu vel, ultricies varius nibh. Morbi luctus a dui eget volutpat. Vivamus mi arcu, aliquam id justo vel, dictum lacinia risus. Praesent in massa in neque auctor ornare.<br><br>Praesent nec diam tellus. Sed tempor, enim a vehicula pulvinar, ligula est congue ipsum, ac vestibulum mauris massa non orci. Nullam ac purus urna. Quisque imperdiet fringilla velit, vel fermentum nisl. Aliquam nunc mauris, placerat at magna in, rhoncus mollis ipsum. Quisque pretium tortor nec nisl ultricies, et lacinia nisl facilisis. Maecenas bibendum malesuada ex vel faucibus. Aenean nec gravida mi. In vitae sodales risus, in fermentum mi. Aliquam consectetur dapibus est eget auctor.",
+                "welcome": "Bienvenue dans la maison des carr\u00e9s VERSION en",
+                "description": "Vivamus tincidunt justo non cursus dapibus. Nulla pellentesque porta ipsum in suscipit. Suspendisse massa ipsum, faucibus eu egestas eget, lobortis eget lorem. Vivamus vehicula, sapien sed laoreet ultricies, tellus mauris fermentum elit, ut tempus quam mi",
+                "saveButton": "Save",
+                "info": "Veuillez cocher la bonne réponse",
+                "access": "Access",
+                "start":"Start",
+                "name": "name",
+                "surname" : "surname",
+                "email": "profesional email ",
+                "hermesid": "your id hermes",
+                "footer": [
+                        {
+                            "value" : "Hermes.com",
+                            "href": "http://wwww.maisondescarees.com"
+                        },
+                        {
+                             "value" :  "mentions légales",
+                             "href": "http://wwww.maisondescarees.com"
+                        },
+                        {
+                            "value" : "CGU"
+                        }
+                 ]
+            },
+
+            "saveModal":{
+                "description": "Vous allez être redirigé vers l'accueil. Vous pourrez reprendre votre parcours en saissisant les informations d'accès dans le formulaire",
+                "okBtn": "OK ",
+                "cancelBtn": "Cancel"
+            },
+
+            "congratulations": {
+                "title": "Félicitation Vous avez terminé le Quizz !",
+                "description": "Vivamus tincidunt justo non cursus dapibus. Nulla pellentesque porta ipsum in suscipit. Suspendisse massa ipsum, faucibus eu egestas eget, lobortis eget lorem. Vivamus vehicula, sapien sed laoreet ultricies, tellus mauris fermentum elit, ut tempus quam mi"
+            },
+            
+            "questions": {
+                "1": {
+                    "type": "textarea",
+                    "label": "Qui a dessin\u00e9 La Maison des Carr\u00e9s?",
+                    "value": "Lorem ipsum dolor sit amet, consecris tempus nullcursus porta."
+                },
+
+                "2": {
+                    "type": "checkbox",
+                    "label": "Quelles saisons sont pr\u00e9sent\u00e9es dans La Maison des carr\u00e9s?",
+                    "reponses": [
+                        {
+                            "label": "PE13",
+                            "value": false,
+                            "name": "PE13"
+                        },
+                         {
+                            "label": "AH13",
+                            "value": true,
+                            "name": "AH"
+                        },
+                         {
+                            "label": "PE14",
+                            "value": true,
+                            "name": "PEE"
+                        },
+                        {
+                            "label": "AH14",
+                            "value": false,
+                            "name": "ADD"
+                        }
+                    ]
+                      
+                },
+                "3": {
+                    "type": "checkbox",
+                    "label": "Quelle est l\u2019animation produit majeure pour ce lancement ? (grande pi\u00e8ce sous les toits)",
+                    "reponses": [
+                        {
+                            "label": "bandanas",
+                            "value": true
+                        },
+                         {
+                            "label": "twilly",
+                            "value": false
+                        },
+                        {
+                            "label": "ch\u00e2les cachemire",
+                            "value": true
+                        }
+                    ]
+                },
+                "4": {
+                    "type": "textarea",
+                    "label": "Lister2 noms de dessins qui ressortent si vous tapez le mot \u00ab Nature \u00bb dans la barre de recherche?",
+                    "value": "fafa"
+                },
+                "5": {
+                    "type": "textarea",
+                    "label": "Comment trouver un carr\u00e9 sur le th\u00e8me \"Equestre, chevaux\" via le site ?",
+                    "value": null
+                },
+                "6": {
+                    "type": "textarea",
+                    "label": "Donner une r\u00e9f\u00e9rence compl\u00e8te d\u2019un format 140 rouge avec des fleurs.",
+                    "value": "bonjour balbalabaka"
+                },
+                "7": {
+                    "type": "textarea",
+                    "label": "Citez 4 produits pr\u00e9sents dans la chambre des gar\u00e7ons",
+                    "value": null
+                },
+                "8": {
+                    "type": "checkbox",
+                    "label": "La Maison des Carr\u00e9s est accessible depuis :",
+                    "reponses": [
+                        {
+                            "label": "un ordinateur",
+                            "value": false
+                        },
+                        {
+                            "label": "une tablette",
+                            "value": false
+                        },
+                         {
+                            "label": "un portable",
+                            "value": false
+                        }
+                    ]
+                },
+                "9": {
+                    "type": "checkbox",
+                    "label": "La Maison des Carr\u00e9s est-elle :",
+                    "reponses": [
+                        {
+                            "label": "Un magasin e-commerce d\u00e9di\u00e9 \u00e0 la Soie dans mon pays?",
+                            "value": false
+                        },
+                         {
+                            "label": "Une vitrine suppl\u00e9mentaire pour mon magasin?",
+                            "value": false
+                        },
+                        {
+                            "label": "Une fa\u00e7on innovante de faire d\u00e9couvrir et aimer nos carr\u00e9s ?",
+                            "value": false
+                        },
+                        {
+                            "label": "Un alli\u00e9 pour g\u00e9n\u00e9rer du trafic dans mon magasin ?",
+                            "value": false
+                        },
+                         {
+                            "label": "Un outil d'informations complet (histoires de carr\u00e9s, nouages, actualit\u00e9s..) pour nos clients ou futurs clients",
+                            "value": false
+                        },
+                         {
+                            "label": "Un moyen de renforcer la relation avec les clients en partageant l\u2019actualit\u00e9 de la Soie",
+                            "value": false
+                        }
+                    ]
+                },
+                "10": {
+                    "type": "textarea",
+                    "label": "Comment un client proc\u00e8de-t-il pour aller en magasin avec sa s\u00e9lection Internet?",
+                    "value": null
+                },
+                "11": {
+                    "type": "checkbox",
+                    "label": "Quelles sont les modalit\u00e9s d\u2019\u00e9change d\u2019un carr\u00e9 achet\u00e9 sur Internet?",
+                    "reponses": [
+                        {
+                            "label": "Echange possible en magasin ou sur Internet(sous x jours)",
+                            "value": false
+                        },
+                         {
+                            "label": "Avoir (credit note) en magasin ou sur internet(sous x jours)",
+                            "value": false
+                        },
+                         {
+                            "label": "S\u2019adresser au magasin Internet pour un remboursement (sous x jours)",
+                            "value": false
+                        }
+                    ]
+                },
+                  "12": {
+                    "type": "checkbox",
+                    "label": "C'est la derniere?",
+                    "reponses": [
+                        {
+                            "label": "Echange possible en magasin ou sur Internet(sous x jours)",
+                            "value": false
+                        },
+                         {
+                            "label": "Avoir (credit note) en magasin ou sur internet(sous x jours)",
+                            "value": false
+                        },
+                         {
+                            "label": "S\u2019adresser au magasin Internet pour un remboursement (sous x jours)",
+                            "value": false
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+
+    "languages":["fr","en"],
+
+    "tab": {
+        "fr": {
+            "fields": {
+                "cgutitle": "Conditions Générales d'utilisation",
+                "cgu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in finibus orci. Aliquam tincidunt id ex dignissim faucibus. Ut ultricies, sem non maximus maximus, ipsum diam interdum felis, quis fringilla ex justo sit amet sapien. Nunc dui lacus, porttitor et arcu vel, ultricies varius nibh. Morbi luctus a dui eget volutpat. Vivamus mi arcu, aliquam id justo vel, dictum lacinia risus. Praesent in massa in neque auctor ornare.<br><br>Praesent nec diam tellus. Sed tempor, enim a vehicula pulvinar, ligula est congue ipsum, ac vestibulum mauris massa non orci. Nullam ac purus urna. Quisque imperdiet fringilla velit, vel fermentum nisl. Aliquam nunc mauris, placerat at magna in, rhoncus mollis ipsum. Quisque pretium tortor nec nisl ultricies, et lacinia nisl facilisis. Maecenas bibendum malesuada ex vel faucibus. Aenean nec gravida mi. In vitae sodales risus, in fermentum mi. Aliquam consectetur dapibus est eget auctor.",
+                "welcome": "Bienvenue dans la maison des carr\u00e9s",
+                "description": "Vivamus tincidunt justo non cursus dapibus. Nulla pellentesque porta ipsum in suscipit. Suspendisse massa ipsum, faucibus eu egestas eget, lobortis eget lorem. Vivamus vehicula, sapien sed laoreet ultricies, tellus mauris fermentum elit, ut tempus quam mi",
+                "saveButton": "sauvegarder",
+                "info": "Veuillez cocher la bonne réponse",
+                "access": "Accéder",
+                "start":"démarrer",
+                "name": "nom",
+                "surname" : "prénom",
+                "email": "email professionnel ou du magasin",
+                "hermesid": "Votre id hermes",
+                "footer": [
+                        {
+                            "value" : "Hermes.com",
+                            "href": "http://wwww.maisondescarees.com"
+                        },
+                        {
+                             "value" :  "mentions légales",
+                             "href": "http://wwww.maisondescarees.com"
+                        },
+                        {
+                            "value" : "CGU"
+                        }
+                 ]
+            },
+
+            "saveModal":{
+                "description": "Vous allez être redirigé vers l'accueil. Vous pourrez reprendre votre parcours en saissisant les informations d'accès dans le formulaire",
+                "okBtn": "OK ",
+                "cancelBtn": "Cancel"
+            },
+
+            "congratulations": {
+                "title": "Félicitation Vous avez terminé le Quizz !",
+                "description": "Vivamus tincidunt justo non cursus dapibus. Nulla pellentesque porta ipsum in suscipit. Suspendisse massa ipsum, faucibus eu egestas eget, lobortis eget lorem. Vivamus vehicula, sapien sed laoreet ultricies, tellus mauris fermentum elit, ut tempus quam mi"
+            }
+            
+        },
+        "en": {
+            "fields": {
+                "cgutitle": "End User License Agreement",
+                "cgu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in finibus orci. Aliquam tincidunt id ex dignissim faucibus. Ut ultricies, sem non maximus maximus, ipsum diam interdum felis, quis fringilla ex justo sit amet sapien. Nunc dui lacus, porttitor et arcu vel, ultricies varius nibh. Morbi luctus a dui eget volutpat. Vivamus mi arcu, aliquam id justo vel, dictum lacinia risus. Praesent in massa in neque auctor ornare.<br><br>Praesent nec diam tellus. Sed tempor, enim a vehicula pulvinar, ligula est congue ipsum, ac vestibulum mauris massa non orci. Nullam ac purus urna. Quisque imperdiet fringilla velit, vel fermentum nisl. Aliquam nunc mauris, placerat at magna in, rhoncus mollis ipsum. Quisque pretium tortor nec nisl ultricies, et lacinia nisl facilisis. Maecenas bibendum malesuada ex vel faucibus. Aenean nec gravida mi. In vitae sodales risus, in fermentum mi. Aliquam consectetur dapibus est eget auctor.",
+                "welcome": "Bienvenue dans la maison des carr\u00e9s VERSION en",
+                "description": "Vivamus tincidunt justo non cursus dapibus. Nulla pellentesque porta ipsum in suscipit. Suspendisse massa ipsum, faucibus eu egestas eget, lobortis eget lorem. Vivamus vehicula, sapien sed laoreet ultricies, tellus mauris fermentum elit, ut tempus quam mi",
+                "saveButton": "Save",
+                "info": "Veuillez cocher la bonne réponse",
+                "access": "Access",
+                "start":"Start",
+                "name": "name",
+                "surname" : "surname",
+                "email": "profesional email ",
+                "hermesid": "your id hermes",
+                "footer": [
+                        {
+                            "value" : "Hermes.com",
+                            "href": "http://wwww.maisondescarees.com"
+                        },
+                        {
+                             "value" :  "mentions légales",
+                             "href": "http://wwww.maisondescarees.com"
+                        },
+                        {
+                            "value" : "CGU"
+                        }
+                 ]
+            },
+
+            "saveModal":{
+                 "description": "Vous allez être redirigé vers l'accueil. Vous pourrez reprendre votre parcours en saissisant les informations d'accès dans le formulaire",
+                "okBtn": "OK ",
+                "cancelBtn": "Cancel"
+            },
+
+            "congratulations": {
+                "title": "Félicitation Vous avez terminé le Quizz !",
+                "description": "Vivamus tincidunt justo non cursus dapibus. Nulla pellentesque porta ipsum in suscipit. Suspendisse massa ipsum, faucibus eu egestas eget, lobortis eget lorem. Vivamus vehicula, sapien sed laoreet ultricies, tellus mauris fermentum elit, ut tempus quam mi"
+            }
+            
+          
+        }
+    }
+}
